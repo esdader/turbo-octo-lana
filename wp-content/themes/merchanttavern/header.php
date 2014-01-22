@@ -8,9 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/main.css">
 
-    <script src="<?php bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="<?php echo bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     <?php wp_head(); ?>
 </head>
 <body>
