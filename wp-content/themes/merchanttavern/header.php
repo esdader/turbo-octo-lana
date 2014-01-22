@@ -14,6 +14,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<div class="container">
 <header class="main-header">
     <div class="cta-btn orange cta-contact">
         <a href="mailto:brixinv@gmail.com">Contact</a>
