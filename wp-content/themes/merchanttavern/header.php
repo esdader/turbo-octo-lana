@@ -36,7 +36,7 @@
             <li><a href="https://twitter.com/merchanttavern" class="twitter ir">Twitter</a></li>
             <li><a href="http://instagram.com/merchanttavern" class="instagram ir">Instagram<a></li>
             <li class="social-arrows"></li>
-            <li><a href="tel:3308659510" class="phone ir">330.865.9510</li>
+            <li><a href="tel:3308659510" class="phone ir">330.865.9510</a></li>
         </ul>
     </div>
 </header>
