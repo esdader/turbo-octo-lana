@@ -9,6 +9,8 @@
     <title></title>
     <meta name="description" content="">
     <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/main.css">
+    <script type="text/javascript" src="//use.typekit.net/ixy4ojm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <script src="<?php echo bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     <?php wp_head(); ?>

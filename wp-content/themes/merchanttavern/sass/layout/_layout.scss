@@ -1,0 +1,14 @@
+.container {
+	width: $site-width;
+	margin: 0 auto;
+	background: #000;
+}
+
+.main-header {
+	display: block;
+	position: relative;
+	width: $header-width;
+	height: 430px;
+	margin: 0 auto;
+	text-align: center;
+}

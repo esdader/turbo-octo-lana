@@ -1,0 +1,29 @@
+// Site variables
+
+// dimensions
+$site-width: 1000px;
+$header-width: 900px;
+
+// fonts 
+$font-family-main: "ff-basic-gothic-web-pro", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box; 
+}
+
+body {
+	font-family: $font-family-main;
+	background: #000 url(../img/main_bg.png) repeat left top;
+	color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-family-main;
+}
