@@ -15,16 +15,16 @@
     <script src="<?php echo bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php echo body_class(); ?>>
 <div class="container">
 <header class="main-header">
     <div class="cta-btn orange cta-contact">
         <a href="mailto:brixinv@gmail.com">Contact</a>
     </div>
-    <div class="cta-btn green cta-latests-drinks">
+    <div class="cta-btn green cta-latest-drinks">
         <a href="http://www.themerchanttavern.com/menu/Merchant_latestdrinks.pdf">Latest Drinks</a>
     </div>
-    <div class="cta-btn orange latest-menu">
+    <div class="cta-btn orange cta-latest-menu">
         <a href="http://www.themerchanttavern.com/menu/Merchant_latestmenu.pdf">Latest Menu</a>
     </div>
     <div class="cta-msg">

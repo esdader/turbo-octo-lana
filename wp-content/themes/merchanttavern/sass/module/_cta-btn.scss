@@ -1,0 +1,65 @@
+// cat-btn
+.cta-btn {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 120px;
+	height: 38px;
+	background: url(../img/s.png) no-repeat center top;
+	text-align: center;
+
+	a {
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background: rgb(198, 200, 202);
+		color: rgb(35, 31, 32);
+		font-size: 11px;
+		line-height: 1.4;
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+.orange {
+	background-position: center -55px;
+
+	a:hover {
+		background-color: rgb(242, 113, 36);
+	}
+}
+
+.green {
+	background-position: center top;
+
+	a:hover {
+		background-color: rgb(137, 161, 100);
+	}
+}
+
+.cta-contact {
+	left: 0;
+}
+
+.cta-latest-drinks {
+	left: 648px;
+}
+.cta-latest-menu {
+	right: 0;
+}
+
+.cta-msg {
+	position: absolute;
+	right: 0;
+	top: 40px;
+	padding: 0;
+	margin: 0;
+	color: rgb(129, 130, 133);
+	font-size: 10px;
+	line-height: 1;
+	text-align: right;
+
+}
