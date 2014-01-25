@@ -11,5 +11,12 @@
 	height: 430px;
 	margin: 0 auto;
 	text-align: center;
-	outline: 1px solid red;
+}
+
+.l-horizontal {
+	list-style: none;
+
+	li {
+		float: left;
+	}
 }

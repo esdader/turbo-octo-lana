@@ -1,0 +1,86 @@
+// social-contact 
+
+.social-contact {
+	position: absolute;
+	top: 348px;
+	width: 100%;
+	height: 80px;
+	
+	ul {
+		height: 75px;
+		padding: 0;
+		margin: 2px 0 3px 0;
+	}
+
+	li {
+		display: block;
+		height: 75px;
+		border-left: 2px solid $color-main-gray;
+	}
+
+	.social-icon {
+		border-left: none;
+	}
+}
+
+.social-icon {
+	width: 136px;
+	background: url(../img/s.png) no-repeat 0 -106px;
+
+	&:before {
+		display: block;
+		width: 2px;
+		height: 75px;
+		border-right: 2px solid $color-main-gray;
+	}
+}
+
+.facebook {
+	display: block;
+	height: 75px;
+	width: 130px;
+	background: url(../img/s.png) no-repeat -134px -106px;
+
+	&:hover {
+		background-position: -134px -766px;
+	}
+}
+
+.twitter {
+	display: block;
+	height: 75px;
+	width: 138px;
+	background: url(../img/s.png) no-repeat -272px -106px;
+
+	&:hover {
+		background-position: -272px -766px;
+	}
+
+}
+
+.instagram {
+	display: block;
+	height: 75px;
+	width: 150px;
+	background: url(../img/s.png) no-repeat -412px -106px;
+
+	&:hover {
+		background-position: -412px -766px;
+	}
+}
+
+.social-arrows {
+	width: 96px;
+	background: url(../img/s.png) no-repeat -563px -106px;
+}
+
+.phone {
+	display: block;
+	height: 75px;
+	width: 238px;
+	background: url(../img/s.png) no-repeat -659px -106px;
+
+	&:hover {
+		background-position: -659px -766px;
+	}
+}

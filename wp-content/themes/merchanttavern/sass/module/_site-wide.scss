@@ -1,0 +1,12 @@
+// helpers and widgets
+
+// gray with dark borders divider
+.hor-divider {
+	display: block;
+	width: 100%;
+	height: 4px;
+	clear: both;
+	background: $color-main-gray;
+	border-top: 1px solid $color-alt-black;
+	border-bottom: 1px solid $color-alt-black;
+}

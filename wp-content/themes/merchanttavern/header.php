@@ -31,14 +31,16 @@
         <p>Click to download the latest PDF</p>
     </div>
     <img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="The Merchant Tavern" class="main-logo">
-    <div class="social-contant">
+    <div class="social-contact clearfix">
+        <div class="hor-divider"> </div>
         <ul class="l-horizontal">
             <li class="social-icon"></li>
             <li><a href="https://www.facebook.com/merchanttavern" class="facebook ir">Facebook</a></li>
             <li><a href="https://twitter.com/merchanttavern" class="twitter ir">Twitter</a></li>
-            <li><a href="http://instagram.com/merchanttavern" class="instagram ir">Instagram<a></li>
+            <li><a href="http://instagram.com/merchanttavern" class="instagram ir">Instagram</a></li>
             <li class="social-arrows"></li>
             <li><a href="tel:3308659510" class="phone ir">330.865.9510</a></li>
         </ul>
+        <div class="hor-divider"> </div>
     </div>
 </header>
