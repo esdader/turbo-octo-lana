@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<div class="main-content">
-    <div class="row">
-        <div class="col left">
+<div class="main-content clearfix">
+    <div class="l-row clearfix">
+        <div class="l-col l-col-left">
             <section class="hours">
                 <h1 class="section-heady hours-heady ir">Hours</h1>
                 <div class="hours-sub">
@@ -10,14 +10,14 @@
                 </div>
             </section>
         </div>
-        <div class="col right">
+        <div class="l-col l-col-right">
             <article class="story">
                 <header>
                     <h1 class="section-heady story-heady ir">Our History</h1>
                 </header>
                 <section>
                     <p>
-                        Roxy Piscazzi stowed away on a boat to get to America. When he met the love of his life, Lucia, he was forbidden from marrying her. So he kidnapped her and they started a family. Together they owned a bar in North Akron called Roxy’s Café. Lucia cooked in other notable restaurants in Akron. Lucia became known as one of the finest cooks in the area. After Roxy had passed, Lucia and their son John, opened a restaurant in the “Valley” known as the Wine Merchant. They focused <div class="story-callout">&#8220; It&#8217;s a poor host who seves his guests poor wine. For he must sit and drink it with them.&#8221;</div> on great wine and great food. From that pioneering establishment grew many of Akron’s best cooks and chefs. Even after the Wine Merchant closed, the legacy lived on.
+                        Roxy Piscazzi stowed away on a boat to get to America. When he met the love of his life, Lucia, he was forbidden from marrying her. So he kidnapped her and they started a family. Together they owned a bar in North Akron called Roxy’s Café. Lucia cooked in other notable restaurants in Akron. Lucia became known as one of the finest cooks in the area. After Roxy had passed, Lucia and their son John, opened a restaurant in the “Valley” known as the Wine Merchant. They focused <span class="story-callout ir">&#8220; It&#8217;s a poor host who seves his guests poor wine. For he must sit and drink it with them.&#8221;</span> on great wine and great food. From that pioneering establishment grew many of Akron’s best cooks and chefs. Even after the Wine Merchant closed, the legacy lived on.
                     </p>
                     <p>
                         The Merchant Tavern was born out of the principles that the John “The Merch” Piscazzi Lived by. Don’t cut corners. Prepare every meal like you would for your family. Buy only the best ingredients, and keep your food simple but good.
@@ -29,8 +29,8 @@
             </article>
         </div>
     </div>
-    <div class="row">
-        <div class="col left">
+    <div class="l-row clearfix">
+        <div class="l-col l-col-left">
             <section class="location">
                 <h1 class="section-heady location-heady ir">
                     Location
@@ -39,7 +39,7 @@
 
             </section>
         </div>
-        <div class="col right">
+        <div class="l-col l-col-right">
             <div class="great-food-drinks ir">
                 Great food and great drinks at the entrance to the Cuyahoga Valley National Park
             </div>

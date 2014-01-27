@@ -531,6 +531,18 @@ a {
 /*==============================/
 /  layouts                      /
 /==============================*/
+.clearfix:before, .l-col:before,
+.clearfix:after,
+.l-col:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after, .l-col:after {
+  clear: both; }
+
+.clearfix, .l-col {
+  *zoom: 1; }
+
 .container {
   width: 1000px;
   margin: 0 auto;
@@ -541,13 +553,49 @@ a {
   position: relative;
   width: 900px;
   height: 430px;
-  margin: 0 auto;
+  margin: 0 auto 26px;
   text-align: center; }
 
 .l-horizontal {
   list-style: none; }
   .l-horizontal li {
     float: left; }
+
+.l-row {
+  width: 900px;
+  padding: 0 20px 0 16px;
+  margin: 0 auto; }
+
+.l-col-left {
+  width: 322px;
+  float: left; }
+
+.l-col-right {
+  width: 529px;
+  float: right; }
+
+.hours {
+  background: #353435; }
+
+.story {
+  display: block;
+  width: 100%;
+  height: 567px;
+  overflow: hidden;
+  padding: 0 22px 0 23px;
+  background: url(../img/joe_story.jpg) no-repeat left top;
+  font-size: 14px;
+  line-height: 14 / 20; }
+
+.story-callout {
+  display: block;
+  width: 190px;
+  height: 156px;
+  float: left;
+  margin: 8px 20px 8px 0;
+  background: url(../img/s.png) no-repeat -444px -209px; }
+  .story-callout p {
+    margin: 0 0 26px 0; }
 
 /*==============================/
 /  modules                      /
@@ -612,11 +660,13 @@ a {
   position: absolute;
   top: 348px;
   width: 100%;
-  height: 80px; }
+  padding: 3px 0 4px;
+  border-top: 2px solid #818285;
+  border-bottom: 2px solid #818285; }
   .social-contact ul {
     height: 75px;
     padding: 0;
-    margin: 2px 0 3px 0; }
+    margin: 0; }
   .social-contact li {
     display: block;
     height: 75px;
@@ -668,6 +718,18 @@ a {
   background: url(../img/s.png) no-repeat -659px -106px; }
   .phone:hover {
     background-position: -659px -766px; }
+
+.section-heady {
+  display: block;
+  height: 24px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(../img/s.png) no-repeat left top; }
+
+.story-heady {
+  margin: 23px 0 14px;
+  background-position: 127px -232px; }
 
 .hor-divider {
   display: block;
@@ -722,15 +784,16 @@ a {
 .invisible {
   visibility: hidden; }
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .l-col:before,
+.clearfix:after,
+.l-col:after {
   content: " ";
   display: table; }
 
-.clearfix:after {
+.clearfix:after, .l-col:after {
   clear: both; }
 
-.clearfix {
+.clearfix, .l-col {
   *zoom: 1; }
 
 /*==============================/
