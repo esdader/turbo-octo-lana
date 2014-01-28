@@ -54,42 +54,44 @@
             </div>
             <section class="news-events">
                 <header>
-                    <h1 class="section-heady new-events-heady ir">
+                    <h1 class="section-heady news-events-heady ir">
                         New &amp; Events
                     </h1>
-                    <p class="new-events-intro">BELOW IS A LIST OF NEWS AND UPCOMING EVENTS. PLEASE ALSO LIKE OUR 
+                    <p class="news-events-intro">BELOW IS A LIST OF NEWS AND UPCOMING EVENTS. PLEASE ALSO LIKE OUR 
 FACEBOOK PAGE AND CHECK FOR DAILY SPECIALS AND HAPPY HOUR DEALS!</p>
                 </header>
-                <article class="news-item">
-                    <header>
-                        <h1>Reserve Your Spot for the January Wine Dinner!</h1>
-                        <p class="meta">Date: 01/22/2014</p>
-                    </header>
-                    <section>
-                        <h2 class="news-item-details">Details:</h2>
-                        <p>
-                            A Brief description of each event. You will be able to go into a backend editor and make updates and changes to each post. There will be a few tricks in the posting technique, but we will go over these so that you know what to lookout for while making the posts.
-                        </p>
-                        <p>
-                            I think you are going to want to keep these Text only... and limit the area to say 1 to 3 posts at a time. Does that make sense? Overall This would be the general size and look of a post. Let me know if this is what you were thinking and I can kickstart a conversation with the coding guys and get a general cost and timeframe.
-                        </p>
-                    </section>
-                </article>
-                <article class="news-item">
-                    <header>
-                        <h1>Reserve Your Spot for the January Wine Dinner!</h1>
-                        <p class="meta">Date: 01/22/2014</p>
-                    </header>
-                    <section>
-                        <h2 class="news-item-details">Details:</h2>
-                        <p>
-                            A Brief description of each event. You will be able to go into a backend editor and make updates and changes to each post. There will be a few tricks in the posting technique, but we will go over these so that you know what to lookout for while making the posts.
-                        </p>
-                        <p>
-                            I think you are going to want to keep these Text only... and limit the area to say 1 to 3 posts at a time. Does that make sense? Overall This would be the general size and look of a post. Let me know if this is what you were thinking and I can kickstart a conversation with the coding guys and get a general cost and timeframe.
-                        </p>
-                    </section>
-                </article>
+                <div class="news-items">
+                    <article class="news-item">
+                        <header>
+                            <h1>Reserve Your Spot for the January Wine Dinner!</h1>
+                            <p class="meta-date">Date: 01/22/2014</p>
+                        </header>
+                        <section>
+                            <h2 class="news-item-details">Details:</h2>
+                            <p>
+                                A Brief description of each event. You will be able to go into a backend editor and make updates and changes to each post. There will be a few tricks in the posting technique, but we will go over these so that you know what to lookout for while making the posts.
+                            </p>
+                            <p>
+                                I think you are going to want to keep these Text only... and limit the area to say 1 to 3 posts at a time. Does that make sense? Overall This would be the general size and look of a post. Let me know if this is what you were thinking and I can kickstart a conversation with the coding guys and get a general cost and timeframe.
+                            </p>
+                        </section>
+                    </article>
+                    <article class="news-item">
+                        <header>
+                            <h1>Reserve Your Spot for the January Wine Dinner!</h1>
+                            <p class="meta-date">Date: 01/22/2014</p>
+                        </header>
+                        <section>
+                            <h2 class="news-item-details">Details:</h2>
+                            <p>
+                                A Brief description of each event. You will be able to go into a backend editor and make updates and changes to each post. There will be a few tricks in the posting technique, but we will go over these so that you know what to lookout for while making the posts.
+                            </p>
+                            <p>
+                                I think you are going to want to keep these Text only... and limit the area to say 1 to 3 posts at a time. Does that make sense? Overall This would be the general size and look of a post. Let me know if this is what you were thinking and I can kickstart a conversation with the coding guys and get a general cost and timeframe.
+                            </p>
+                        </section>
+                    </article>
+                </div>
             </section>
         </div>
     </div>

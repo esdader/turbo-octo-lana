@@ -67,7 +67,6 @@
 
 .hours {
 	padding: 23px 0 20px;
-	margin-bottom: 18px;
 	background: $color-hours;
 }
 
@@ -104,6 +103,7 @@
 	display: block;
 	width: 100%;
 	height: 102px;
+	margin-top: 18px;
 	background: url(../img/s.png) no-repeat -652px -212px;
 }
 
@@ -117,4 +117,5 @@
 
 .news-events {
 	background: $color-news;
+	padding: 19px 0 20px;
 }
