@@ -5,8 +5,11 @@
         <div class="l-col l-col-left">
             <section class="hours">
                 <h1 class="section-heady hours-heady ir">Hours</h1>
-                <div class="hours-sub">
-                    
+                <div class="hours-sub ir">
+                    <p>Tuesday through Thrusday open 3:30pm to 12:00am</p>
+                    <p>Friday open 3:30pm to 2:30am</p>
+                    <p>Saturday open 12:00pm to 2:30am</p>
+                    <p>Sunday open 12:00pm to 10:00pm</p>
                 </div>
             </section>
             <div class="l-arrows-art">

@@ -6,8 +6,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
-    <meta name="description" content="">
+    <title>The Merchant Tavern</title>
+    <meta name="description" content="The Merchant Tavern - Where friends become family.  Top notch service, great food, great cocktails, beer, and wine."/>
     <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/main.css">
     <script type="text/javascript" src="//use.typekit.net/ixy4ojm.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
