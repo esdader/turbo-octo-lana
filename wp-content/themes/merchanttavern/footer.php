@@ -1,6 +1,6 @@
 <footer class="main-footer clearfix">
     <p class="footer-contact">
-        Copyright <?php echo date('Y'); ?> / The Merchant Tavern LLC / Akron, OH &bull; Designed by <a href="http://www.ohioboy.com">Ohioboy.com</a> &amp; <a href="https://twitter.com/esdader">The Night Owls Union</a>
+        Copyright <?php echo date('Y'); ?> <span class="slash">/</span> The Merchant Tavern LLC <span class="slash">/</span> Akron, OH <span class="dot">&bull;</span> Designed by <a href="http://www.ohioboy.com">Ohioboy.com</a> &amp; <a href="https://twitter.com/esdader">The Night Owls Union</a>
     </p>
     <div class="mini-social-media">
         <ul class="l-horizontal">

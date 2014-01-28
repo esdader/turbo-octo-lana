@@ -4,6 +4,7 @@
 $site-width:   1000px;
 $header-width: 900px;
 $main-body-width: $header-width;
+$footer-width: $header-width;
 
 // colors
 $color-main-gray: rgb(129, 130, 133);
@@ -22,6 +23,7 @@ $font-family-main: "ff-basic-gothic-web-pro", "Franklin Gothic", "ITC Franklin G
 }
 
 body {
+	padding-bottom: 3em;
 	font-family: $font-family-main;
 	background: #000 url(../img/main_bg.png) repeat left top;
 	color: #fff;

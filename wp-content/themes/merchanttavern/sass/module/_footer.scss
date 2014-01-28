@@ -1,0 +1,70 @@
+.main-footer {
+	width: $footer-width;
+	color: rgb(199, 200, 202);
+	font-size: 9px;
+	line-height: 28px;
+	padding: 3px 0 4px;
+	margin: 0 auto;
+	border-top: 2px solid $color-main-gray;
+
+	a {
+		color: rgb(199, 200, 202);
+
+		&:hover {
+			color: $color-news;
+		}
+	}
+}
+
+.footer-contact {
+	margin: 0;
+	float: left;
+}
+
+.dot {
+	padding: 0 6px;
+}
+
+.slash {
+	padding: 0 3px;
+}
+
+.mini-social-media {
+	margin: 0;
+	float: right;
+	border-left: 2px solid $color-main-gray;
+
+	ul {
+		padding: 0 0 0 56px;
+		margin: 0;
+	}
+
+	li {
+		text-transform: uppercase;
+		
+		a {
+			padding: 0 8px;
+		}
+
+		&:after {
+			content: "/";
+		}
+	}
+
+	li:first-child {
+		&:after {
+			content: none;
+		}
+	}
+
+	li:last-child {
+
+		&:after {
+			content: none;
+		}
+
+		a {
+			padding-right: 0;
+		}
+	}
+}
