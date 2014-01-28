@@ -41,6 +41,16 @@
 	margin: 0 auto;
 }
 
+.l-row-top {
+	padding-bottom: 16px;
+	border-bottom: 2px solid $color-main-gray;
+}
+
+.l-row-bottom {
+	padding-top: 20px;
+	padding-bottom: 16px;
+}
+
 .l-col {
 	@extend .clearfix;
 }
@@ -56,6 +66,7 @@
 }
 
 .hours {
+	padding: 23px 0 0;
 	background: $color-hours;
 }
 
@@ -67,7 +78,7 @@
 	padding: 0 22px 0 23px;
 	background: url(../img/joe_story.jpg) no-repeat left top;
 	font-size: 14px;
-	line-height: 14 / 20;
+	line-height: 1.5;
 }
 
 .story-callout {
@@ -81,4 +92,21 @@
 	p {
 		margin: 0 0 26px 0;
 	}
+}
+
+.location {
+	padding: 17px 0 0;
+	background: $color-location;
+}
+
+.great-food-drinks {
+	display: block;
+	width: 529px;
+	height: 142px;
+	margin: 0 auto 16px;
+	background: url(../img/s.png) no-repeat 0 -501px;
+}
+
+.news-events {
+	background: $color-news;
 }

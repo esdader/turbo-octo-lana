@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-content clearfix">
-    <div class="l-row clearfix">
+    <div class="l-row l-row-top clearfix">
         <div class="l-col l-col-left">
             <section class="hours">
                 <h1 class="section-heady hours-heady ir">Hours</h1>
@@ -29,7 +29,7 @@
             </article>
         </div>
     </div>
-    <div class="l-row clearfix">
+    <div class="l-row l-row-bottom clearfix">
         <div class="l-col l-col-left">
             <section class="location">
                 <h1 class="section-heady location-heady ir">
