@@ -9,6 +9,9 @@
                     
                 </div>
             </section>
+            <div class="l-arrows-art">
+                
+            </div>
         </div>
         <div class="l-col l-col-right">
             <article class="story">
@@ -36,8 +39,11 @@
                     Location
                 </h1>
                 <p class="addy">1824 Merriman Rd., Akron, Ohio 44313</p>
-
+                <a href="https://maps.google.com/maps?q=1824+Merriman+Road,+Akron,+OH&hl=en&sll=40.365277,-82.669252&sspn=5.733161,13.392334&oq=1824+merriman&hnear=1824+Merriman+Rd,+Akron,+Ohio+44313&t=m&z=16&iwloc=A" class="location-map ir">View on google maps</a>
             </section>
+            <div class="l-arrows-art">
+                
+            </div>
         </div>
         <div class="l-col l-col-right">
             <div class="great-food-drinks ir">

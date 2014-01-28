@@ -1,0 +1,23 @@
+// location
+.addy {
+	width: 288px;
+	margin: 0 auto;
+	padding: 8px 0;
+	border-top: 1px solid rgb(1, 1, 1);
+	border-bottom: 1px solid rgb(1, 1, 1);
+	text-align: center;
+	color: rgb(1, 1, 1);
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1;
+	text-transform: uppercase;
+
+
+}
+
+.location-map {
+	display: block;
+	width: 100%;
+	height: 356px;
+	background: url(../img/s.png) no-repeat -653px -390px;
+}
