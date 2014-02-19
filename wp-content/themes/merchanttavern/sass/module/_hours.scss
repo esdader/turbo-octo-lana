@@ -6,3 +6,72 @@
 	margin: 0 auto;
 	background: url(../img/hours.png) no-repeat left top;
 }
+
+.merchant-hours {
+
+	width: 280px;
+	margin: 0 auto;
+
+	tr {
+		border-bottom: 3px solid $color-main-gray;
+	}
+	thead {
+		tr {
+			border-top: 3px solid $color-main-gray;
+		}
+	}
+
+	td {
+		border-left: 3px solid $color-main-gray;
+	}
+
+	.days {
+		width: 97px;
+		border-left: none;
+		color: #fff;
+		font-size: 10px;
+		text-indent: 0;
+		background: url(../img/hours_arrow.png) no-repeat 70px center;
+	}
+
+	.start-hours {
+		width: 95px;
+	}
+
+	.close-hours {
+		width: 86px;
+	}
+
+	th {
+		border-left: 3px solid $color-main-gray;
+
+		&:first-child {
+			border-left: none;
+		}
+	}
+
+	th,
+	td {
+		font: normal normal bold 10px/1.2 $font-family-main;
+		color: $color-main-gray;
+		text-transform: uppercase;
+		
+	}
+
+	th {
+		padding: 12px 0;
+		letter-spacing: 2px;
+	}
+
+	td {
+		height: 80px;
+		vertical-align: middle;
+		font-size: 18px;
+		text-indent: 10px;
+
+		span { 
+			font-size: 12px;
+		}
+	}
+
+}

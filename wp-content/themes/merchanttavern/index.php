@@ -5,12 +5,35 @@
         <div class="l-col l-col-left">
             <section class="hours">
                 <h1 class="section-heady hours-heady ir">Hours</h1>
-                <div class="hours-sub ir">
-                    <p>Tuesday through Thrusday open 3:30pm to 12:00am</p>
-                    <p>Friday open 3:30pm to 2:30am</p>
-                    <p>Saturday open 12:00pm to 2:30am</p>
-                    <p>Sunday open 12:00pm to 10:00pm</p>
-                </div>
+                    <table class="merchant-hours">
+                        <thead>
+                            <th>Day</th>
+                            <th>Open</th>
+                            <th>Close</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="days">Tuesday<br>Through<br>Thrusday</td>
+                                <td class="start-hours">3:30<span>pm</span></td>
+                                <td class="close-hours">12:00<span>am</span></td>
+                            </tr>
+                            <tr>
+                                <td class="days">Friday</td>
+                                <td class="start-hours">3:30<span>pm</span></td>
+                                <td class="close-hours">2:30<span>am</span></td>
+                            </tr>
+                            <tr>
+                                <td class="days">Saturday</td>
+                                <td class="start-hours">12:00<span>pm</span></td>
+                                <td class="close-hours">2:30<span>am</span></td>
+                            </tr>
+                            <tr>
+                                <td class="days">Sunday</td>
+                                <td class="start-hours">12:00<span>pm</span></td>
+                                <td class="close-hours">8:00<span>pm</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
             </section>
             <div class="l-arrows-art">
                 
