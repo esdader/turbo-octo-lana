@@ -1,11 +1,12 @@
 .main-footer {
 	width: $footer-width;
 	color: rgb(199, 200, 202);
-	font-size: 9px;
+	font-size: 10px;
 	line-height: 28px;
 	padding: 3px 0 4px;
 	margin: 0 auto;
 	border-top: 2px solid $color-main-gray;
+	text-transform: uppercase;
 
 	a {
 		color: rgb(199, 200, 202);
@@ -35,12 +36,13 @@
 	border-left: 2px solid $color-main-gray;
 
 	ul {
-		padding: 0 0 0 56px;
+		padding: 0 0 0 32px;
 		margin: 0;
 	}
 
 	li {
 		text-transform: uppercase;
+		font-weight: 500;
 		
 		a {
 			padding: 0 8px;

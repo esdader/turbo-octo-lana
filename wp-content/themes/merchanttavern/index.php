@@ -86,32 +86,27 @@ FACEBOOK PAGE AND CHECK FOR DAILY SPECIALS AND HAPPY HOUR DEALS!</p>
                 <div class="news-items">
                     <article class="news-item">
                         <header>
-                            <h1>Reserve Your Spot for the January Wine Dinner!</h1>
-                            <p class="meta-date">Date: 01/22/2014</p>
+                            <h1>Valentine's Wine Dinner</h1>
+                            <p class="meta-date">Wednesday / February, 12</p>
                         </header>
                         <section>
-                            <h2 class="news-item-details">Details:</h2>
                             <p>
-                                A Brief description of each event. You will be able to go into a backend editor and make updates and changes to each post. There will be a few tricks in the posting technique, but we will go over these so that you know what to lookout for while making the posts.
+                                5 courses, 5 Wines
                             </p>
-                            <p>
-                                I think you are going to want to keep these Text only... and limit the area to say 1 to 3 posts at a time. Does that make sense? Overall This would be the general size and look of a post. Let me know if this is what you were thinking and I can kickstart a conversation with the coding guys and get a general cost and timeframe.
-                            </p>
+                            <ul>
+                                <li>1 Ticket = $90</li>
+                                <li>2 Tickets = $150</li>                 
+                            </ul>        
+                            <p><em>PRE-SALE ONLY - Tickets are Limited and Going Fast!!!!</em></p>
                         </section>
                     </article>
                     <article class="news-item">
                         <header>
-                            <h1>Reserve Your Spot for the January Wine Dinner!</h1>
-                            <p class="meta-date">Date: 01/22/2014</p>
+                            <h1>Deschutes Brewery Sampling</h1>
+                            <p class="meta-date">Monday / January, 27 / 7-10pm</p>
                         </header>
                         <section>
-                            <h2 class="news-item-details">Details:</h2>
-                            <p>
-                                A Brief description of each event. You will be able to go into a backend editor and make updates and changes to each post. There will be a few tricks in the posting technique, but we will go over these so that you know what to lookout for while making the posts.
-                            </p>
-                            <p>
-                                I think you are going to want to keep these Text only... and limit the area to say 1 to 3 posts at a time. Does that make sense? Overall This would be the general size and look of a post. Let me know if this is what you were thinking and I can kickstart a conversation with the coding guys and get a general cost and timeframe.
-                            </p>
+                            <p>Compliments of Deschutes, Heidelberg, &amp; The Merchant Tavern  /  Live Music &amp; Try 5 Incredible brews from the one of the best micro Breweries!</p>
                         </section>
                     </article>
                 </div>
