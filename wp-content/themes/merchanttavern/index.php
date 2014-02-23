@@ -84,31 +84,35 @@
 FACEBOOK PAGE AND CHECK FOR DAILY SPECIALS AND HAPPY HOUR DEALS!</p>
                 </header>
                 <div class="news-items">
-                    <article class="news-item">
-                        <header>
-                            <h1>Valentine's Wine Dinner</h1>
-                            <p class="meta-date">Wednesday / February, 12</p>
-                        </header>
-                        <section>
-                            <p>
-                                5 courses, 5 Wines
-                            </p>
-                            <ul>
-                                <li>1 Ticket = $90</li>
-                                <li>2 Tickets = $150</li>                 
-                            </ul>        
-                            <p><em>PRE-SALE ONLY - Tickets are Limited and Going Fast!!!!</em></p>
-                        </section>
-                    </article>
-                    <article class="news-item">
-                        <header>
-                            <h1>Deschutes Brewery Sampling</h1>
-                            <p class="meta-date">Monday / January, 27 / 7-10pm</p>
-                        </header>
-                        <section>
-                            <p>Compliments of Deschutes, Heidelberg, &amp; The Merchant Tavern  /  Live Music &amp; Try 5 Incredible brews from the one of the best micro Breweries!</p>
-                        </section>
-                    </article>
+                    <?php 
+                        // The Query
+
+                        $args = array(
+                                'post_type' => 'new_and_events',
+                                'order' => 'ASC'
+                            );
+                        $the_query = new WP_Query( $args );
+                    ?>
+                    <?php if ( $the_query->have_posts() ) : ?>
+                        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                            <article class="news-item">
+                                <header>
+                                    <h1><?php the_title(); ?></h1>
+                                    <?php if( get_field('time_and_day') ) : ?>
+                                        <p class="meta-date"><?php the_field('time_and_day'); ?></p>
+                                    <?php endif; ?>
+                                </header>
+                                <section>
+                                    <?php the_content(); ?>
+                                </section>
+                            </article>
+
+                        <?php endwhile; ?>
+                    <?php else : ?>
+                        
+                    <?php endif; ?>
+                    
+                    <?php wp_reset_postdata(); ?>
                 </div>
             </section>
         </div>
